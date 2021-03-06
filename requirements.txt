@@ -3,7 +3,7 @@ decorator
 eventlet
 Flask
 Flask-Bootstrap
-Flask-SocketIO
+Flask-SocketIO==4.3.2
 grpcio
 imageio
 imutils
@@ -31,8 +31,8 @@ pylint
 Pympler
 pyparsing
 python-dateutil
-python-engineio
-python-socketio
+python-engineio==3.13.2
+python-socketio==4.6.0
 python-utils
 PyWavelets
 PyYAML

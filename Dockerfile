@@ -6,7 +6,7 @@ COPY requirements.txt /app/requirements.txt
 WORKDIR /app
 
 RUN apt-get update && \
-    apt-get install build-essential libglib2.0-0 libsm6 libxext6 libxrender-dev -y && \
+    apt-get install build-essential ffmpeg libglib2.0-0 libsm6 libxext6 libxrender-dev -y && \
     apt-get clean && \
     pip3 install -r requirements.txt && \
     rm -rf ~/.cache/pip && \
